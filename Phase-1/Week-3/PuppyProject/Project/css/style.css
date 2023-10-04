@@ -14,8 +14,7 @@
 .banImage {
   width: 100%;
 }
-.main {
-}
+
 .pup {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,6 +26,9 @@
   padding: 3rem;
   width: 87%;
   background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pupp-2 {
   display: flex;
@@ -44,4 +46,35 @@
 }
 .big {
   font-weight: 700;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 2px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1.2rem;
+  justify-items: center;
+}
+.box {
+  border: 1rem solid #000;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.violet {
+  background-color: violet;
+}
+.aqua {
+  background-color: aqua;
 }
