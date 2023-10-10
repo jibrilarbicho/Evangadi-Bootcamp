@@ -14,17 +14,23 @@
 .banImage {
   width: 100%;
 }
-
+.main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .pup {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  gap: 1rem;
   margin-bottom: 1.3rem;
 }
 
 .missingPuppy {
   padding: 3rem;
-  width: 87%;
   background-color: brown;
   display: flex;
   justify-content: center;
@@ -36,14 +42,17 @@
   margin-bottom: 1.1rem;
 }
 .pup-img {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  width: 100%;
 }
 .more-pupp {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1.2rem;
 }
+
 .big {
   font-weight: 700;
 }
