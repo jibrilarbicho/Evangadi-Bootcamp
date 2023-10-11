@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98rem;
+  margin: 0 auto;
+  list-style: none; }
+  .nav-link li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+    font-size: 1.28rem; }
+
+.nav-icon {
+  width: 10px;
+  height: 10px; }
+
+.header {
+  background-color: black;
+  padding: 2rem;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #fff; }
