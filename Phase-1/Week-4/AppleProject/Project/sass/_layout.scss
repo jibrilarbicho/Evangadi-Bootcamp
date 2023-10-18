@@ -5,3 +5,41 @@
   font-size: 0.8rem;
   color: #fff;
 }
+.section-1 {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.second {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 6.5rem 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.overview-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #06c;
+}
+a:hover .overview-icon {
+  fill: #000000;
+}
+.third {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 6.5rem 2rem;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

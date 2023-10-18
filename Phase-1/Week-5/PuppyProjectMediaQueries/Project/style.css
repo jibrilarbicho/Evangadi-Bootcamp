@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blueBG {
+  background-color: blue;
+  padding: 1.2rem;
+  width: 100%;
+  text-align: center;
+  box-shadow: 2px 6px 6px rgb(0, 0, 0);
+}
+#banner {
+  margin-bottom: 2rem;
+}
+.banImage {
+  width: 100%;
+}
+.main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paragraph {
+  text-align: center;
+  font-size: 1.27rem;
+  font-weight: bold;
+}
+.pup {
+  display: flex;
+  gap: 1.2rem;
+  width: 85%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.puppy {
+  width: 33.333333333333%;
+}
+
+.puppy img {
+  width: 100%;
+}
+.missingPuppy {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.pupp-2 {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  /* also used as a margin for top and bottom */
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.im1,
+.im2 {
+  width: 48.5%;
+}
+.im1 img {
+  width: 100%;
+}
+.im2 img {
+  width: 100%;
+}
+.pup-img {
+  display: flex;
+
+  justify-content: space-between;
+}
+.more-pupp {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.big {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1400px) {
+  .main {
+    width: 90%;
+  }
+  .pup {
+    width: 100%;
+  }
+  .pupp-2 {
+    width: 100%;
+  }
+
+  .missingPuppy {
+    background-color: blue;
+    color: orange;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main {
+    width: 98%;
+  }
+  .missingPuppy {
+    background-color: rgb(219, 226, 28);
+    color: rgb(140, 99, 22);
+  }
+  .more-pupp {
+    display: inline-block;
+    background-image: linear-gradient(to right, #28b485, #7ed56f);
+    -webkit-background-clip: text;
+
+    color: transparent;
+  }
+
+  .pup {
+    flex-direction: row-reverse;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .puppy {
+    width: 80%;
+  }
+  .missingPuppy {
+    display: none;
+  }
+  .pup-img {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .im1,
+  .im2 {
+    width: 80%;
+  }
+}

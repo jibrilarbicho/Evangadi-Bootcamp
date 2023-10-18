@@ -9,12 +9,138 @@
       text-decoration: none;
       color: inherit;
       font-weight: 200;
-      font-size: 1.28rem;
+      font-size: 1.58rem;
+      @include opacity(0.5);
+
+      &:hover {
+        @include opacity(0.8);
+      }
     }
     list-style: none;
   }
   &-icon {
-    width: 10px;
-    height: 10px;
+    width: 2rem;
+    height: 2rem;
+
+    filter: brightness(100);
+    &:hover {
+      filter: brightness(1);
+    }
+  }
+}
+.section-1-body {
+  width: 98rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  &-model {
+    font-size: 1.8rem;
+  }
+  &-product-title {
+    font-family: 700;
+    font-size: 5.8rem;
+  }
+  &-brief-description {
+    font-size: 3.4rem;
+  }
+  &-links-wrapper {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    ul {
+      list-style: none;
+    }
+    ul li {
+      display: inline-block;
+
+      padding-right: 2rem;
+      a {
+        color: #06c;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+.second {
+  &-internal-wrapper {
+    width: 98rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+  &-title-wraper {
+    font-weight: 600;
+    font-size: 2.4rem;
+  }
+  &-description-wrapper {
+    font-size: 2.6rem;
+    padding: 1rem 0;
+  }
+  &-price-wrapper {
+    color: #86868b;
+    font-size: 2rem;
+  }
+  &-links-wrapper {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    ul {
+      list-style: none;
+    }
+    ul li {
+      display: inline-block;
+
+      padding-right: 2rem;
+      a {
+        color: #06c;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+a {
+  text-decoration: none;
+}
+.third {
+  &-internal-wrapper {
+    width: 98rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  &-title-wraper {
+    font-weight: 600;
+    font-size: 56px;
+  }
+  &-description-wrapper {
+    font-size: 2.6rem;
+    padding: 1rem 0;
+  }
+  &-price-wrapper {
+    color: #86868b;
+    font-size: 2rem;
+  }
+  &-links-wrapper {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    ul {
+      list-style: none;
+    }
+    ul li {
+      display: inline-block;
+
+      padding-right: 2rem;
+      a {
+        color: #06c;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
   }
 }

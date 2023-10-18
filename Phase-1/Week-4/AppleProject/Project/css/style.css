@@ -1,18 +1,30 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+}
+/* header */
+.header {
+  background-color: black;
+  padding: 2rem;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #fff;
+}
 
 .nav-link {
   display: flex;
@@ -20,20 +32,180 @@ body {
   align-items: center;
   width: 98rem;
   margin: 0 auto;
-  list-style: none; }
-  .nav-link li a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 200;
-    font-size: 1.28rem; }
+  list-style: none;
+}
+.nav-link li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 200;
+  font-size: 1.58rem;
+  opacity: 0.5;
+}
+.nav-link li a:hover {
+  opacity: 0.8;
+}
 
 .nav-icon {
-  width: 10px;
-  height: 10px; }
+  width: 2rem;
+  height: 2rem;
+  filter: brightness(100);
+}
+.nav-icon:hover {
+  filter: brightness(1);
+}
+/* section-1 */
+.section-1 {
+  text-align: center;
+  padding: 2.5rem;
+}
+.section-1-body {
+  width: 98rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.section-1-body-model {
+  font-size: 1.8rem;
+}
+.section-1-body-product-title {
+  font-family: 700;
+  font-size: 5.8rem;
+}
+.section-1-body-brief-description {
+  font-size: 3.4rem;
+}
+.section-1-body-links-wrapper {
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+.section-1-body-links-wrapper ul {
+  list-style: none;
+}
+.section-1-body-links-wrapper ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.section-1-body-links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.section-1-body-links-wrapper ul li a:hover {
+  color: black;
+}
+/* section-2 */
+.second {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 65vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 6.5rem 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.second-internal-wrapper {
+  width: 98rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
 
-.header {
-  background-color: black;
-  padding: 2rem;
-  font-weight: 200;
-  font-size: 0.8rem;
-  color: #fff; }
+.second-title-wraper {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.second-description-wrapper {
+  font-size: 2.6rem;
+  padding: 1rem 0;
+}
+
+.second-price-wrapper {
+  color: #86868b;
+  font-size: 2rem;
+}
+
+.second-links-wrapper {
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+.second-links-wrapper ul {
+  list-style: none;
+}
+.second-links-wrapper ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.second-links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.second-links-wrapper ul li a:hover {
+  color: black;
+}
+
+/* section-3 */
+.third {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 6.5rem 2rem;
+}
+.third-internal-wrapper {
+  width: 98rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.third-title-wraper {
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.third-description-wrapper {
+  font-size: 2.6rem;
+  padding: 1rem 0;
+}
+
+.third-price-wrapper {
+  color: #86868b;
+  font-size: 2rem;
+}
+
+.third-links-wrapper {
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+.third-links-wrapper ul {
+  list-style: none;
+}
+.third-links-wrapper ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.third-links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.third-links-wrapper ul li a:hover {
+  color: black;
+}
+
+.overview-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #06c;
+}
+
+a:hover .overview-icon {
+  fill: #000000;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

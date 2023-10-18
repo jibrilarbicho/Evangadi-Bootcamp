@@ -25,11 +25,19 @@ body {
     text-decoration: none;
     color: inherit;
     font-weight: 200;
-    font-size: 1.28rem; }
+    font-size: 1.58rem;
+    opacity: 0.5; }
+    .nav-link li a::first-letter {
+      text-transform: uppercase; }
+    .nav-link li a:hover {
+      opacity: 0.8; }
 
 .nav-icon {
-  width: 10px;
-  height: 10px; }
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.8 !important; }
+  .nav-icon:hover {
+    opacity: 1 !important; }
 
 .header {
   background-color: black;
@@ -37,3 +45,8 @@ body {
   font-weight: 200;
   font-size: 0.8rem;
   color: #fff; }
+
+.section-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
